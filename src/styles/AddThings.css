@@ -1,0 +1,28 @@
+.container-AddThing {
+   background-color: #70B85D;
+   color: white;
+   padding: 20px;
+   font-family: 'Karla', sans-serif;
+   font-size: 1.3rem;
+}
+
+.bt-AddThing {
+   width: 100%;
+   background-color: transparent;
+   padding: 1rem;
+   color: white;
+   border: 2px solid white;
+   border-radius: 50px;
+   cursor: pointer;
+   font-family: 'Karla', sans-serif;
+   margin-bottom: 20px;
+}
+
+.bt-AddThing:hover {
+   background-color: #FFFEF1;
+   color: #2C5E2E;
+}
+
+.bt-AddThing:focus {
+   outline: 0;
+}
