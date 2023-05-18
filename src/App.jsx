@@ -10,6 +10,8 @@ import Box from "./components/Box";
 import Form from "./components/Form";
 import WindowTracker from "./components/WindowTracker";
 import Services from "./components/Services";
+import ServicesFetch from "./components/ServicesFetch";
+import ServicesRickMorty from "./components/ServicesRickMorty";
 
 const App = () => {
   // console.log(jokesData);
@@ -84,7 +86,11 @@ const App = () => {
         {show && <WindowTracker />}
       </div> */}
 
-      <Services/>
+      {/* <Services/> */}
+
+      {/* <ServicesFetch/> */}
+
+      <ServicesRickMorty/>
     </div>
   );
 };

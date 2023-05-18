@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
+import '../styles/Services.css';
 
 /*
 Call to api https://catfact.ninja/fact to get a 'cat fact string' then, with the 3 first words do 
 a search call to api https://api.giphy.com/v1/gifs/search with the API_KEY: FpimVNooJI0i8Fk99twHUkJcqNtjgSpd
-to get the gif from the object returned. To finish, place the gif to the left and the full cat fact to the 
+to get the gif from the object returned. To end, place the gif to the left and the full cat fact to the 
 right within the dom, vertically aligned.
 */
 
